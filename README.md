@@ -1,7 +1,14 @@
-# Publicación de Notas
+<img src="/docs/resources/go-notes-images.png" align="right" />
+
+# Go-Notes
+
+> Un proyecto del [curso-tdd](https://jj.github.io/curso-tdd) o curso de desarrollo ágil.
+
+Este proyecto es un MVP que resuelve lo siguiente problema:
+
+## [Notas](https://jj.github.io/curso-tdd/problemas/notas.html)
 
 Almacenar las notas en diferentes prácticas de una asignatura, junto con comentarios adicionales y posibles anotaciones que se hayan podido hacer sobre las mismas.
-
 
 ## Historias de usuario
 * [H1 - Como Profesor necesito publicar las notas de los alumnos en la asignatura que enseño](https://github.com/Golang-EC/go-notes/issues/6)
@@ -15,10 +22,9 @@ Almacenar las notas en diferentes prácticas de una asignatura, junto con coment
 ## Roadmap
 * Para acceder al roadmap haga clic en el siguiente [enlace](https://github.com/Golang-EC/go-notes/projects/1) 
 
----
-
-| Integrantes |
+--- 
+| Equipo |
 --- |
-Kevin Campuzano |
-Richard Palacios |
-Leonardo Gómez |
+[Kevin Campuzano](https://github.com/Kevincamp) |
+[Richard Palacios](https://github.com/rpalaciosg) |
+[Leonardo Gomez](https://github.com/gomezgleonardob) |
