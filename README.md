@@ -1,7 +1,9 @@
-# Plantilla del curso de desarrollo ágil 
+# Publicación de Notas
 
-Plantilla para el [curso de desarrollo ágil](https://jj.github.io/curso-tdd)
+Almacenar las notas en diferentes prácticas de una asignatura, junto con comentarios adicionales y posibles anotaciones que se hayan podido hacer sobre las mismas.
 
-Contiene el mínimo para un proyecto, incluyendo una GitHub action que
-comprueba la presencia de ciertos ficheros, un directorio para los
-tests, y otro para la documentación.
+| Integrantes |
+--- |
+Kevin Campuzano |
+Richard Palacios |
+Leonardo Gómez |
