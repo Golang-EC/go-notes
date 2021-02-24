@@ -11,6 +11,12 @@ Almacenar las notas en diferentes prácticas de una asignatura, junto con coment
 ## Épicas
 * [Épica 1](https://github.com/Golang-EC/go-notes/milestone/1)
 
+
+## Roadmap
+* Para acceder al roadmap haga clic en el siguiente [enlace](https://github.com/Golang-EC/go-notes/projects/1) 
+
+---
+
 | Integrantes |
 --- |
 Kevin Campuzano |
