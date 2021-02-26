@@ -12,6 +12,10 @@ Este proyecto es un MVP que resuelve lo siguiente problema:
 
 **Solución**: Crear un API REST en el cual el docente pueda publicar las notas de sus alumnos junto a sus comentarios y anotaciones respectivos. Estas notas serán publicadas para que los estudiantes puedan revisarlas en cualquier momento mediante una web estatica.
 
+## Herramientas y tecnologías que usaremos
+* Lenguaje de programación: [Golang](https://golang.org/)
+* Servicio de Log: [log](https://golang.org/pkg/log/) 
+* Archivos JSON para almacenamiento
 
 ## Historias de usuario
 * [H1 - Como Profesor necesito publicar las notas de los alumnos en la asignatura que enseño](https://github.com/Golang-EC/go-notes/issues/6)
