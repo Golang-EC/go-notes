@@ -8,7 +8,10 @@ Este proyecto es un MVP que resuelve lo siguiente problema:
 
 ## [Notas](https://jj.github.io/curso-tdd/problemas/notas.html)
 
-Almacenar las notas en diferentes prácticas de una asignatura, junto con comentarios adicionales y posibles anotaciones que se hayan podido hacer sobre las mismas.
+**Problema**:  Almacenar las notas en diferentes prácticas de una asignatura, junto con comentarios adicionales y posibles anotaciones que se hayan podido hacer sobre las mismas.
+
+**Solución**: Crear un API REST en el cual el docente pueda publicar las notas de sus alumnos junto sus comentarios y anotaciones respectivos. Estas notas serán publicadas para que los estudiantes puedan revisarlas en cualquier momento mediante una web estatica.
+
 
 ## Historias de usuario
 * [H1 - Como Profesor necesito publicar las notas de los alumnos en la asignatura que enseño](https://github.com/Golang-EC/go-notes/issues/6)
