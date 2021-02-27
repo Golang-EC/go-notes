@@ -1,4 +1,4 @@
-<img src="/docs/resources/go-notes-images.png" align="right" />
+<img src="/docs/resources/go-notes-images.png" align="right"/>
 
 # Go-Notes
 
@@ -18,7 +18,7 @@ Este proyecto es un MVP que resuelve lo siguiente problema:
 
 - Lenguaje de programación: [Golang](https://golang.org/)
 - Servicio de Log: [log](https://golang.org/pkg/log/)
-- Archivos JSON para almacenamiento
+- DataFiles, archivos JSON para almacenamiento
 
 ## Historias de usuario
 
