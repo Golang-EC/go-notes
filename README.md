@@ -30,9 +30,11 @@ Este proyecto es un MVP que resuelve el siguiente problema:
 
 - [Épica 1](https://github.com/Golang-EC/go-notes/milestone/1)
 
-## Roadmap
+## Milestones del proyecto
 
-- Para acceder al roadmap haga clic en el siguiente [enlace](https://github.com/Golang-EC/go-notes/projects/1)
+- Hemos planificado los siguientes hitos para llevar a cabo un mvp del proyecto 
+1. [Definiendo algunas clases y sus atributos](https://github.com/Golang-EC/go-notes/projects/1#column-13357999)
+2. [Definiendo ciertas funcionalidades esenciales](https://github.com/Golang-EC/go-notes/projects/1#column-13358053)
 
 ---
 
