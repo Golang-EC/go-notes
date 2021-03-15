@@ -35,7 +35,6 @@ Hemos planificado los siguientes hitos para llevar a cabo un mvp del proyecto
 1. [Definiendo algunas clases y sus atributos](https://github.com/Golang-EC/go-notes/projects/1#column-13357999)
 2. [Definiendo ciertas funcionalidades esenciales](https://github.com/Golang-EC/go-notes/projects/1#column-13358053)
 
-
 ---
 
 | Equipo                                               |  |
