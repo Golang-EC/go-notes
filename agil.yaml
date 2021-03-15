@@ -1,3 +1,6 @@
 personas:
   - Augusto Carela
   - Pepito Pihuave
+
+excepciones: 
+  - src/errors.go
