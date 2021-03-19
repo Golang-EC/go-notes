@@ -2,11 +2,11 @@ personas:
   - Augusto Carela
   - Pepito Pihuave
 
-excepciones: 
-  - src/errors.go
-
 lenguaje: 
   - "Golang"
 
 taskfile: 
   - "makefile"
+
+excepciones: 
+  - src/errors.go
