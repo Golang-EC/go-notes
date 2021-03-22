@@ -1,24 +1,23 @@
-package main 
+package main
 
 import (
-	"fmt",
 	"errors"
 )
 
-func validateScore(score int) (int, error){
+func validateScore(score int) (int, error) {
 
-	if(score < 0) {
+	if score < 0 {
 		return -1, errors.New("Score should be greather than zero")
 	}
 
-	return score
+	return score, nil
 }
 
-func validateSubject(subjectName string) (string, error){
+func validateSubject(subjectName string) (string, error) {
 
 	if len(subjectName) <= 0 {
 		return "", errors.New("Subject name should have at least one character")
 	}
 
-	return subjectName
+	return subjectName, nil
 }
