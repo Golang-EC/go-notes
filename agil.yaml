@@ -8,5 +8,8 @@ lenguaje:
 taskfile: 
   - "makefile"
 
+linter:
+  - "vet"
+
 excepciones: 
   - src/errors.go
