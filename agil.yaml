@@ -11,5 +11,11 @@ taskfile:
 linter:
   - "vet"
 
+test:
+  - tests/testMain.go
+
+aserciones: 
+  - "testify"
+
 excepciones: 
   - src/errors.go
