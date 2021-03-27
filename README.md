@@ -28,7 +28,7 @@ Hemos planificado los siguientes hitos para llevar a cabo un mvp del proyecto
 2. [Definiendo ciertas funcionalidades esenciales](https://github.com/Golang-EC/go-notes/projects/1#column-13358053)
 
 ## Ejecutando pruebas
-Para echar a andar los test ejecutamos el comando mencionado acontinuación, el cual devolverá por terminal el resultado de dichas pruebas con sus aserciones.
+Para echar a andar los test ejecutamos el comando mencionado acontinuación, el cual devolverá por terminal el resultado de dichas pruebas con sus aserciones. Esto hara ejecutar el comando (`go test`) para el archivo GoNotes_test.go .
 ```
 make test
 ```
