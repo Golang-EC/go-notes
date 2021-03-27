@@ -16,6 +16,7 @@ test:
 
 testing:
   runner: go
+  framework: go
 
 aserciones: 
   - "testify"
