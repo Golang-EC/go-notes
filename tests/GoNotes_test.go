@@ -1,4 +1,4 @@
-package tests
+package GoNotes_test
 
 import (
 	"log"
@@ -8,12 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestMain(m *testing.M) {
-	log.Println("Do stuff BEFORE the tests!")
-	exitVal := m.Run()
-	log.Println("Do stuff AFTER the tests!")
+func TestA(t *testing.T) {
 
-	os.Exit(exitVal)
 }
 
 func TestSomething(t *testing.T) {
@@ -23,4 +19,11 @@ func TestSomething(t *testing.T) {
 	var b string = "Hello"
 
 	assert.Equal(a, b, "The two words should be the same.")
+}
+
+func TestMain(m *testing.M) {
+	log.Println("Do stuff BEFORE the tests!")
+	exitVal := m.Run()
+	log.Println("Do stuff AFTER the tests!")
+	os.Exit(exitVal)
 }

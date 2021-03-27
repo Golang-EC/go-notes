@@ -12,7 +12,10 @@ linter:
   - "vet"
 
 test:
-  - tests/testMain.go
+  - tests/GoNotes_test.go
+
+testing:
+  runner: go
 
 aserciones: 
   - "testify"
