@@ -9,3 +9,6 @@ build:
 
 run:
 	go run src/main.go
+
+check:
+	go vet .src/main.go
