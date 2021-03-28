@@ -1,0 +1,37 @@
+name: CICD
+on: [push, pull_request]
+jobs:
+  test:
+    strategy:
+      matrix:
+        go-version: [1.15.x,1.16.x]
+        os: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Install Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: ${{ matrix.go-version }}
+
+    - name: Intall dependencies
+      run: |
+        go version
+        go get -u golang.org/x/lint/golinto version
+        go get -u github.com/stretchr/testify/assert
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run vet & lint
+      uses: make check
+
+    - name: Run testing
+      run: make test
+
+    - name: up code coverage
+      - uses: actions/checkout@master
+      - uses: codecov/codecov-actions@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # this is because is into organization 
+          flags: unittests
+      run: bash <(curl -s https://codecov.io/bash)
