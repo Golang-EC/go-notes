@@ -1,7 +1,7 @@
 package GoNotes_test
 
 import (
-	// "log"
+	"fmt"
 	"os"
 	"testing"
 
@@ -23,11 +23,11 @@ func TestSomething(t *testing.T) {
 
 func TestMain(m *testing.M) {
 
-	loggin.logger := &Logger{}
-	// log.Println("Do stuff BEFORE the tests!")
-	logger.Log("Do stuff BEFORE the tests!")
+	loggin.initLoggin("../loggin/logs.log", "logger: ")
+	log.Println("Do stuff BEFORE the tests!")
+	fmt.Println("Do stuff BEFORE the tests!")
 	exitVal := m.Run()
-	// log.Println("Do stuff AFTER the tests!")
-	logger.Log("Do stuff AFTER the tests!")
+	fmt.Println("Do stuff AFTER the tests!")
+	Log.Println("Do stuff AFTER the tests!")
 	os.Exit(exitVal)
 }

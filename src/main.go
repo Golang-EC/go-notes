@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	loggin.logger := &Logger{}
-	logger.Log("Hello logger!!")
+	// loggin.logger :=
+	loggin.initLoggin("../loggin/logs.log", "logger: ")
+	log.Print("Hello logger!!")
 	fmt.Println("Hello")
 }
