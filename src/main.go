@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
+	loggin.logger := &Logger{}
+	logger.Log("Hello logger!!")
 	fmt.Println("Hello")
 }
