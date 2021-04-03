@@ -24,6 +24,6 @@ aserciones:
 excepciones: 
   - src/errors.go
 
-dependency_injection:
+dateador:
   - src/loggin.go
 
