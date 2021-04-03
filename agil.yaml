@@ -23,3 +23,7 @@ aserciones:
 
 excepciones: 
   - src/errors.go
+
+dependency_injection:
+  - src/loggin.go
+
