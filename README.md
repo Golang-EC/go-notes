@@ -3,6 +3,8 @@
 # Go-Notes
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Golang-EC/go-notes?style=social)
+[![codecov](https://codecov.io/gh/Golang-EC/go-notes/branch/master/graph/badge.svg?token=0K5Q36Y0C4)](https://codecov.io/gh/Golang-EC/go-notes)
+
 
 > Un proyecto del [curso-tdd](https://jj.github.io/curso-tdd) o curso de desarrollo ágil.
 
@@ -28,10 +30,18 @@ Hemos planificado los siguientes hitos para llevar a cabo un mvp del proyecto
 2. [Definiendo ciertas funcionalidades esenciales](https://github.com/Golang-EC/go-notes/projects/1#column-13358053)
 
 ## Ejecutando pruebas
-Para echar a andar los test ejecutamos el comando mencionado acontinuación, el cual devolverá por terminal el resultado de dichas pruebas con sus aserciones. Esto hara ejecutar el comando (`go test`) para el archivo GoNotes_test.go .
+Para echar a andar los test ejecutamos el comando mencionado acontinuación, el cual devolverá por terminal el resultado de dichas pruebas con sus aserciones. Esto hará ejecutar el comando (`go test`) para el archivo GoNotes_test.go .
 ```
 make test
 ```
+
+## Correr test de cobertura | code coverage
+
+Podemos ejecutar los test de cobertura usando la herramienta interna de golang la cual esta configurada para ejecutarse en la siguiente tarea del make task runner.
+```shell
+make coverage
+```
+Esto mostrara un archivo de salida _coverage.out_
 
 ---
 

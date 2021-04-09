@@ -28,7 +28,10 @@ jobs:
     - name: Run testing
       run: make test
 
-    - name: up code coverage
+    - name: Run coverage
+      run: make coverage
+
+    - name: Upload coverage
       - uses: actions/checkout@master
       - uses: codecov/codecov-actions@v1
         with:

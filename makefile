@@ -12,3 +12,6 @@ run:
 
 check:
 	go vet .src/main.go
+
+coverage: 
+	go test -race -covermode=atomic -coverprofile=coverage.out
