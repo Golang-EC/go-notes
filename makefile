@@ -2,16 +2,16 @@ hello:
 	echo "hello"
 
 test:
-	go test tests/GoNotes_test.go
+	go test src/GoNotes_test.go
 
 build: 
-	go build -o bin/main src/main.go
+	go build -o bin/main src/*.go
 
 run:
 	go run src/main.go
 
-check:
-	go vet .src/main.go
-
 coverage: 
-	go test -race -covermode=atomic -coverprofile=coverage.out
+	go test src/GoNotes_test.go -race -covermode=atomic --coverprofile=coverage.out
+
+check:
+	go vet src/*.go
