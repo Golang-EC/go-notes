@@ -11,7 +11,7 @@ run:
 	go run src/main.go
 
 coverage: 
-	go test -race -covermode=atomic -coverprofile=coverage.out
+	go test src/GoNotes_test.go -race -covermode=atomic --coverprofile=coverage.out
 
 check:
 	go vet src/*.go
