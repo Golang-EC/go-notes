@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"log"
 )
 
 func main() {
-	// loggin.logger :=
-	loggin.initLoggin("../loggin/logs.log", "logger: ")
+	fl := InitLoggin("../loggin/logs.log", "logger: ")
+	defer CloseLogFile(fl)
 	log.Print("Hello logger!!")
 	fmt.Println("Hello")
 }
