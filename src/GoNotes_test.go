@@ -1,4 +1,4 @@
-package test
+package main
 
 import (
 	"log"
@@ -26,14 +26,4 @@ func TestMain(m *testing.M) {
 	exitVal := m.Run()
 	log.Println("Do stuff AFTER the tests!")
 	os.Exit(exitVal)
-}
-
-func TestLoggin(t *testing.T) {
-
-	// f := InitLoggin("../loggin/logs.log", "logger: ")
-	// file, err := os.OpenFile(f)
-	// // defer CloseLogFile(f)
-	// if f != file {
-	// 	t.Errorf("No se creo el archivo de loggin", err)
-	// }
 }
