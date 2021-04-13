@@ -51,3 +51,4 @@ Esto mostrara un archivo de salida _coverage.out_
 | [Kevin Campuzano](https://github.com/Kevincamp)      | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/kevin-campuzano-castillo-42294966/)](https://www.linkedin.com/in/kevin-campuzano-castillo-42294966/)
 | [Richard Palacios](https://github.com/rpalaciosg)    | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/richardpalaciosgarcia/)](https://www.linkedin.com/in/richardpalaciosgarcia/)
 | [Leonardo Gomez](https://github.com/gomezgleonardob) | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-222222?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/gomezgleonardob//)](https://www.linkedin.com/in/gomezgleonardob/)
+
