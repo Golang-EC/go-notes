@@ -38,7 +38,7 @@ make test
 
 ## Correr test de cobertura | code coverage
 
-Podemos ejecutar los test de cobertura usando la herramienta interna de golang la cual esta configurada para ejecutarse en la siguiente tarea del make task runner.
+Podemos ejecutar los test de cobertura usando la herramienta interna de golang la cual esta configurada para ejecutarse en la siguiente tarea del make task runner. En si lo que ejecuta es  (`go test --coverprofile=coverage.out`) , (`go coverage`)
 ```shell
 make coverage
 ```
