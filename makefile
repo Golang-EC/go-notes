@@ -10,8 +10,8 @@ build:
 run:
 	go run src/main.go
 
+coverage: 
+	go test tests/GoNotes_test.go --coverprofile=coverage.out
+
 check:
 	go vet .src/main.go
-
-coverage: 
-	go test -race -covermode=atomic -coverprofile=coverage.out
