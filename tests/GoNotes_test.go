@@ -1,16 +1,13 @@
-package GoNotes_test
+package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 )
-
-func TestA(t *testing.T) {
-
-}
 
 func TestSomething(t *testing.T) {
 	assert := assert.New(t)
@@ -23,11 +20,11 @@ func TestSomething(t *testing.T) {
 
 func TestMain(m *testing.M) {
 
-	loggin.initLoggin("../loggin/logs.log", "logger: ")
+	initLoggin("../loggin/logs.log", "logger: ")
 	log.Println("Do stuff BEFORE the tests!")
 	fmt.Println("Do stuff BEFORE the tests!")
 	exitVal := m.Run()
 	fmt.Println("Do stuff AFTER the tests!")
-	Log.Println("Do stuff AFTER the tests!")
+	log.Println("Do stuff AFTER the tests!")
 	os.Exit(exitVal)
 }

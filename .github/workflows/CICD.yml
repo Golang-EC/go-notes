@@ -13,7 +13,7 @@ jobs:
       with:
         go-version: ${{ matrix.go-version }}
 
-    - name: Intall dependencies
+    - name: Install dependencies
       run: |
         go version
         go get -u golang.org/x/lint/golinto version

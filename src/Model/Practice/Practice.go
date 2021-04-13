@@ -1,4 +1,4 @@
-package Practice
+package main
 
 type Practice struct {
 	name         string
