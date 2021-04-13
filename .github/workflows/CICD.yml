@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run vet & lint
-        uses: make check
+        run: make check
 
       - name: Run testing
         run: make test
