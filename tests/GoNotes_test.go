@@ -1,7 +1,7 @@
-package GoNotes_test
+package test
 
 import (
-	"fmt"
+	"log"
 	"os"
 	"testing"
 
@@ -22,12 +22,18 @@ func TestSomething(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
-
-	loggin.initLoggin("../loggin/logs.log", "logger: ")
 	log.Println("Do stuff BEFORE the tests!")
-	fmt.Println("Do stuff BEFORE the tests!")
 	exitVal := m.Run()
-	fmt.Println("Do stuff AFTER the tests!")
-	Log.Println("Do stuff AFTER the tests!")
+	log.Println("Do stuff AFTER the tests!")
 	os.Exit(exitVal)
+}
+
+func TestLoggin(t *testing.T) {
+
+	f := InitLoggin("../loggin/logs.log", "logger: ")
+	file, err := os.OpenFile(f)
+	// defer CloseLogFile(f)
+	if f != file {
+		t.Errorf("No se creo el archivo de loggin", err)
+	}
 }
